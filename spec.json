@@ -165,6 +165,11 @@
             "type": "int"
           },          "doc": "How many pip slots the piece has, per pip rarity."
         },
+        "scaling_multipliers": {
+          "type": "map",          "of": {
+            "type": "float"
+          },          "doc": "Weapon stat scaling multipliers (e.g. Prophets, Maestros). Each entry is ranked by investment."
+        },
         "prereqs": {
           "type": "list",
           "of": {
